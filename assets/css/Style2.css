@@ -1,0 +1,46 @@
+#zatemReg {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#zatemZan {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#zatemLogin {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#Registr {
+    position: absolute;
+    left: 36.4vw;
+    top: 1vw;
+}
+#Login {
+    position: absolute;
+    left: 36.4vw;
+    top: 1vw;
+}
+#Registr:target {display: block;}
+#Login:target {display: block;}
+#zatemReg:target {display: block;}
+#zatemLogin:target {display: block;}
+#zatemZan:target {display: block;}
+.close {
+    display: inline-block;
+}
+.close:hover {background: #e6e6ff;}
